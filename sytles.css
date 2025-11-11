@@ -147,8 +147,10 @@ video {
 }
 @media (max-width: 768px) {
     .hero {
-        background: url('MobleHero.png') center/cover no-repeat;
-        height: 80vh; /* slightly smaller to fit mobile view */
+        background: url('MobleHero.png') no-repeat;
+        width: 100%;                     /* full width */
+        height: 70vh;                     /* set the height you want */
+        background-size: cover;           /* makes it fill width & height */
     }
 }
 
