@@ -19,6 +19,10 @@ body {
     width: 100%;
     display: block;
 }
+.hero {
+    background: url('Hero.png') center top / cover no-repeat;
+}
+
 
 
 /* VIDEO SECTION */
@@ -141,3 +145,10 @@ video {
         width: 95%;
     }
 }
+@media (max-width: 768px) {
+    .hero {
+        background: url('MobleHero.png') center/cover no-repeat;
+        height: 80vh; /* slightly smaller to fit mobile view */
+    }
+}
+
